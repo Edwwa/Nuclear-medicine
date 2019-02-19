@@ -6,9 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="css/styles.css">
   
   <title>Decay_Calculator</title>
+  <!--Made by Edvardas Vitkus-->
 </head>
 
 <body>
@@ -18,79 +19,79 @@
       F-18
     </a>
   </nav>
-  <div class="windows">
+  <div class="container bg">
     <h4>Patient 1</h4>
     <input id="first" type="number" placeholder="Activity" oninput="CalcFunction()">
     <input id="dose" type="number" placeholder="dose" oninput="CalcFunction()">
     <strong>Likutis yra: </strong><output id="likutis"></output><br>
-    <strong>Laiko tarpas, min.</strong> <input type="number" id="time" placeholder="minutes" oninput="decay()" >
+    <strong>Laiko tarpas, min.</strong> <input type="number" id="time" placeholder="minutes" class="laiko" oninput="decay()" >
     <!--<output id="first1" ></output>-->
   </div>
-  <div class="windows">
+  <div class="container">
     <h4>Patient 2</h4>
     <input id="first1" type="number" placeholder="Activity" value="">
-    <input id="dose" type="number" placeholder="dose" oninput="CalcFunction()">
-    <strong>Likutis yra: </strong><output id="likutis"></output><br>
-    <strong>Laiko tarpas, min.</strong> <input type="number" id="time" placeholder="minutes" oninput="decay()" >
+    <input id="dose1" type="number" placeholder="dose" oninput="CalcFunction1()">
+    <strong>Likutis yra: </strong><output id="likutis1"></output><br>
+    <strong>Laiko tarpas, min.</strong> <input type="number" id="time1" placeholder="minutes" class="laiko" oninput="decay1()" >
   </div>
-  <div class="windows">
+  <div class="container bg">
     <h4>Patient 3</h4>
-    <input id="first" type="number" placeholder="Activity" oninput="CalcFunction()">
-    <input id="dose" type="number" placeholder="dose" oninput="CalcFunction()">
-    <strong>Likutis yra: </strong><output id="likutis"></output><br>
-    <strong>Laiko tarpas, min.</strong> <input type="number" id="time" placeholder="minutes" oninput="decay()" >
+    <input id="first2" type="number" placeholder="Activity" value="">
+    <input id="dose2" type="number" placeholder="dose" oninput="CalcFunction2()">
+    <strong>Likutis yra: </strong><output id="likutis2"></output><br>
+    <strong>Laiko tarpas, min.</strong> <input type="number" id="time2" placeholder="minutes" class="laiko" oninput="decay2()" >
   </div>
-  <div class="windows">
+  <div class="container">
     <h4>Patient 4</h4>
-    <input id="first" type="number" placeholder="Activity" oninput="CalcFunction()">
-    <input id="dose" type="number" placeholder="dose" oninput="CalcFunction()">
-    <strong>Likutis yra: </strong><output id="likutis"></output><br>
-    <strong>Laiko tarpas, min.</strong> <input type="number" id="time" placeholder="minutes" oninput="decay()" >
+    <input id="first3" type="number" placeholder="Activity" value="">
+    <input id="dose3" type="number" placeholder="dose" oninput="CalcFunction3()">
+    <strong>Likutis yra: </strong><output id="likutis3"></output><br>
+    <strong>Laiko tarpas, min.</strong> <input type="number" id="time3" placeholder="minutes" class="laiko" oninput="decay3()" >
   </div>
-  <div class="windows">
+  <div class="container bg">
     <h4>Patient 5</h4>
-    <input id="first" type="number" placeholder="Activity" oninput="CalcFunction()">
-    <input id="dose" type="number" placeholder="dose" oninput="CalcFunction()">
-    <strong>Likutis yra: </strong><output id="likutis"></output><br>
-    <strong>Laiko tarpas, min.</strong> <input type="number" id="time" placeholder="minutes" oninput="decay()" >
+    <input id="first4" type="number" placeholder="Activity" value="">
+    <input id="dose4" type="number" placeholder="dose" oninput="CalcFunction4()">
+    <strong>Likutis yra: </strong><output id="likutis4"></output><br>
+    <strong>Laiko tarpas, min.</strong> <input type="number" id="time4" placeholder="minutes" class="laiko" oninput="decay4()" >
   </div>
-  <div class="windows">
+  <div class="container">
     <h4>Patient 6</h4>
-    <input id="first" type="number" placeholder="Activity" oninput="CalcFunction()">
-    <input id="dose" type="number" placeholder="dose" oninput="CalcFunction()">
-    <strong>Likutis yra: </strong><output id="likutis"></output><br>
-    <strong>Laiko tarpas, min.</strong> <input type="number" id="time" placeholder="minutes" oninput="decay()" >
+    <input id="first5" type="number" placeholder="Activity" oninput="CalcFunction5()">
+    <input id="dose5" type="number" placeholder="dose" oninput="CalcFunction5()">
+    <strong>Likutis yra: </strong><output id="likutis5"></output><br>
+    <strong>Laiko tarpas, min.</strong> <input type="number" id="time5" placeholder="minutes" class="laiko" oninput="decay5()" >
   </div>
-  <div class="windows">
+  <div class="container bg">
     <h4>Patient 7</h4>
-    <input id="first" type="number" placeholder="Activity" oninput="CalcFunction()">
-    <input id="dose" type="number" placeholder="dose" oninput="CalcFunction()">
-    <strong>Likutis yra: </strong><output id="likutis"></output><br>
-    <strong>Laiko tarpas, min.</strong> <input type="number" id="time" placeholder="minutes" oninput="decay()" >
+    <input id="first6" type="number" placeholder="Activity" oninput="CalcFunction6()">
+    <input id="dose6" type="number" placeholder="dose" oninput="CalcFunction6()">
+    <strong>Likutis yra: </strong><output id="likutis6"></output><br>
+    <strong>Laiko tarpas, min.</strong> <input type="number" id="time6" placeholder="minutes" class="laiko" oninput="decay6()" >
   </div>
-  <div class="windows">
+  <div class="container">
     <h4>Patient 8</h4>
-    <input id="first" type="number" placeholder="Activity" oninput="CalcFunction()">
-    <input id="dose" type="number" placeholder="dose" oninput="CalcFunction()">
-    <strong>Likutis yra: </strong><output id="likutis"></output><br>
-    <strong>Laiko tarpas, min.</strong> <input type="number" id="time" placeholder="minutes" oninput="decay()" >
+    <input id="first7" type="number" placeholder="Activity" oninput="CalcFunction7()">
+    <input id="dose7" type="number" placeholder="dose" oninput="CalcFunction7()">
+    <strong>Likutis yra: </strong><output id="likutis7"></output><br>
+    <strong>Laiko tarpas, min.</strong> <input type="number" id="time7" placeholder="minutes" class="laiko" oninput="decay7()" >
   </div>
-  <div class="windows">
+  <div class="container bg">
     <h4>Patient 9</h4>
-    <input id="first" type="number" placeholder="Activity" oninput="CalcFunction()">
-    <input id="dose" type="number" placeholder="dose" oninput="CalcFunction()">
-    <strong>Likutis yra: </strong><output id="likutis"></output><br>
-    <strong>Laiko tarpas, min.</strong> <input type="number" id="time" placeholder="minutes" oninput="decay()" >
+    <input id="first8" type="number" placeholder="Activity" oninput="CalcFunction8()">
+    <input id="dose8" type="number" placeholder="dose" oninput="CalcFunction8()">
+    <strong>Likutis yra: </strong><output id="likutis8"></output><br>
+    <strong>Laiko tarpas, min.</strong> <input type="number" id="time8" placeholder="minutes" class="laiko" oninput="decay8()" >
   </div>
-  <div class="windows">
+  <div class="container">
     <h4>Patient 10</h4>
-    <input id="first" type="number" placeholder="Activity" oninput="CalcFunction()">
-    <input id="dose" type="number" placeholder="dose" oninput="CalcFunction()">
-    <strong>Likutis yra: </strong><output id="likutis"></output><br>
-    <strong>Laiko tarpas, min.</strong> <input type="number" id="time" placeholder="minutes" oninput="decay()" >
+    <input id="first9" type="number" placeholder="Activity" oninput="CalcFunction9()">
+    <input id="dose9" type="number" placeholder="dose" oninput="CalcFunction9()">
+    <strong>Likutis yra: </strong><output id="likutis9"></output><br>
+    <strong>Laiko tarpas, min.</strong> <input type="number" id="time9" placeholder="minutes" class="laiko" oninput="decay9()" >
   </div>
 
-  <!--<p id="likutis"></p>-->
+  
 
 
 
